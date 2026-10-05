@@ -87,6 +87,12 @@ importers:
       '@swc/core':
         specifier: ^1.16.12
         version: 1.16.12
+      '@swc/core-linux-arm64-musl':
+        specifier: ^1.16.13
+        version: 1.16.13
+      '@swc/core-linux-x64-musl':
+        specifier: ^1.16.13
+        version: 1.16.13
       '@types/express':
         specifier: ^5.0.0
         version: 5.0.6
@@ -917,6 +923,12 @@ packages:
     os: [linux]
     libc: [musl]
 
+  '@swc/core-linux-arm64-musl@1.16.13':
+    resolution: {integrity: sha512-aeoYoG6fQsOS3mFOuTKvnJo1aaaxYNI0aRRlhdHaGP4q1YQx4XOc5Hkd35IFduWCBG3eZl3fPTjRuYvxpl7eTA==}
+    engines: {node: '>=10'}
+    cpu: [arm64]
+    os: [linux]
+
   '@swc/core-linux-ppc64-gnu@1.16.12':
     resolution: {integrity: sha512-kJab4XOOe590gTj2HOEqIrKJjwNaJBZQsd1fn1yYYg3C0YMG8kgXsEsIpZNgdxw8LsUeeS7iwUSSwEHY3PVSEQ==}
     engines: {node: '>=10'}
@@ -944,6 +956,12 @@ packages:
     cpu: [x64]
     os: [linux]
     libc: [musl]
+
+  '@swc/core-linux-x64-musl@1.16.13':
+    resolution: {integrity: sha512-iCGxHbh3Cq5vqRvCPlw3XkkDz4RlkPSyQwfFKbOKTMj5tiEuojY/rLmf4BMfI9Z8yPJTf9VB07t3NbKInoC97g==}
+    engines: {node: '>=10'}
+    cpu: [x64]
+    os: [linux]
 
   '@swc/core-win32-arm64-msvc@1.16.12':
     resolution: {integrity: sha512-0Cje91Dhwv18EwK4EVJ6UVFsaz19ndeHvmR+55UkENe3CLxq5Qk6+KkFSbxFgfHwYwXmiMpVVJt5MjfEsXy8yA==}
@@ -3482,6 +3500,8 @@ snapshots:
   '@swc/core-linux-arm64-musl@1.16.12':
     optional: true
 
+  '@swc/core-linux-arm64-musl@1.16.13': {}
+
   '@swc/core-linux-ppc64-gnu@1.16.12':
     optional: true
 
@@ -3493,6 +3513,8 @@ snapshots:
 
   '@swc/core-linux-x64-musl@1.16.12':
     optional: true
+
+  '@swc/core-linux-x64-musl@1.16.13': {}
 
   '@swc/core-win32-arm64-msvc@1.16.12':
     optional: true
